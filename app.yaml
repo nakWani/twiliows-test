@@ -1,0 +1,10 @@
+runtime: nodejs
+env: flex
+service: default
+
+manual_scaling:
+  instances: 1
+
+network:
+  session_affinity: true
+  instance_tag: websocket
